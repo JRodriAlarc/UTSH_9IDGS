@@ -1,0 +1,159 @@
+.imagen_banner{
+  background-image: url('../IMG/Banner.jpg');
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.div_banner{
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.6);
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div_principal{
+  border-top: 6px solid rgb(128, 128, 128);
+  border-bottom: 6px solid rgb(128, 128, 128);
+}
+
+.titulo_banner{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.titulo{
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.titulo_2{
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.texto{
+  text-align: justify;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.div_imagen{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.imagen{
+  border-radius: 50%;
+}
+
+/* Media query para el titulo principal. */
+.titulo_principal_ada {
+  font-size: 20px;
+  margin: 0px;
+}
+
+@media (min-width: 820px) {
+  .titulo_principal_ada {
+    font-size: 28px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .titulo_principal_ada {
+    font-size: 36px;
+    margin: 0px;
+  }
+}
+
+/* Media query para el titulo. */
+.titulo_ada {
+  font-size: 20px;
+}
+
+@media (min-width: 820px) {
+  .titulo_ada {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .titulo_ada {
+    font-size: 28px;
+  }
+}
+
+/* Media query para el titulo 2. */
+.titulo_2_ada {
+  font-size: 18px;
+}
+
+@media (min-width: 820px) {
+  .titulo_2_ada {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .titulo_2_ada {
+    font-size: 26px;
+  }
+}
+
+/* Media query para el texto. */
+.texto_ada {
+  font-size: 16px;
+}
+
+@media (min-width: 820px) {
+  .texto_ada {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .texto_ada {
+    font-size: 20px;
+  }
+}
+
+/* Media query para la imagen. */
+.imagen_ada {
+  width: 175px;
+  height: 175px;
+}
+
+@media (min-width: 820px) {
+  .imagen_ada {
+    width: 225px;
+    height: 225px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .imagen_ada {
+    width: 300px;
+    height: 300px;
+  }
+}
