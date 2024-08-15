@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía de Jose Ricardo Peñafiel Luna</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f7ef;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto 20px;
+            overflow: hidden;
+        }
+        .profile-img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            transition: opacity 1s ease-in-out;
+        }
+        .bio-content {
+            overflow: hidden;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        p, ul {
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: '•';
+            color: #1e8449;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 4px solid #1e8449;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-img-container">
+            <img src="R.jpg" alt="Foto de perfil 1" class="profile-img" id="imagen1" style="opacity: 1;">
+            <img src="R2.jpg" alt="Foto de perfil 2" class="profile-img" id="imagen2" style="opacity: 0;">
+        </div>
+        <div class="bio-content">
+            <h1>Jose Ricardo Peñafiel Luna</h1>
+            <div class="section">
+                <h2>Información Personal</h2>
+                <ul>
+                    <li>Nombre completo: Jose Ricardo Peñafiel Luna</li>
+                    <li>Fecha y lugar de nacimiento: 16 de septiembre de 2003, Zacualtipán de Ángeles, Hidalgo</li>
+                    <li>Familia: Hijo de Luz María Luna Cruz y Ricardo Peñafiel Cuamatzi, hermano mayor de cinco hermanos</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Educación</h2>
+                <ul>
+                    <li>Preescolar: Jardín de Niños Elías Pérez Sánchez</li>
+                    <li>Primaria: Escuela Primaria Melchor Ocampo</li>
+                    <li>Secundaria: Escuela Secundaria General Nicandro Castillo</li>
+                    <li>Preparatoria: Colegio de Bachilleres del Estado de Hidalgo (COBAEH) CEMSAD San Agustín Metzquititlán</li>
+                    <li>Universidad: Universidad Tecnológica de la Sierra Hidalguense (UTSH), TSU en TI área Desarrollo de Software Multiplataforma y actualmente en Ingeniería en Desarrollo y Gestión de Software</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Aspectos Personales</h2>
+                <p>Me gusta jugar videojuegos, leer y escuchar música pop.</p>
+                <h3>Libros Favoritos</h3>
+                <ul>
+                    <li>"Aristóteles y Dante descubren los secretos del universo" de Benjamin Alire Sáenz</li>
+                    <li>"Aristóteles y Dante se sumergen en las aguas del mundo" de Benjamin Alire Sáenz</li>
+                    <li>"Loveless" de Alice Oseman</li>
+                    <li>"Solitario" de Alice Oseman</li>
+                    <li>"Radio Silencio" de Alice Oseman</li>
+                    <li>"Heartstopper" de Alice Oseman</li>
+                    <li>"La teoría de Kim" de Jay Sandoval</li>
+                </ul>
+                <h3>Artistas Favoritos</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/ladygaga/" target="_blank">Lady Gaga</a></li>
+                    <li><a href="https://www.instagram.com/charli_xcx/" target="_blank">Charli XCX</a></li>
+                    <li><a href="https://www.instagram.com/katyperry/" target="_blank">Katy Perry</a></li>
+                    <li><a href="https://www.instagram.com/troyesivan/" target="_blank">Troye Sivan</a></li>
+                    <li><a href="https://www.instagram.com/adele/" target="_blank">Adele</a></li>
+                    <li><a href="https://www.instagram.com/michaeljackson/" target="_blank">Michael Jackson</a></li>
+                    <li><a href="https://www.instagram.com/kaliuchis/" target="_blank">Kali Uchis</a></li>
+                </ul>
+                <h3>Canciones Favoritas</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=wV1FrqwZyKw&ab_channel=LadyGagaVEVO" target="_blank">Born This Way - Lady Gaga</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=b53QJYP-lqY&ab_channel=TroyeSivanVEVO" target="_blank">Rush - Troye Sivan</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=UxxajLWwzqY&ab_channel=IconaPop" target="_blank">I Love It - Icona Pop</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=CevxZvSJLk8&ab_channel=KatyPerryVEVO" target="_blank">Roar - Katy Perry</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=qrO4YZeyl0I&ab_channel=LadyGagaVEVO" target="_blank">Bad Romance - Lady Gaga</a></li>
+                </ul>
+            </div>
+
+            <h2>Referencias</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/share/KFg8J4KWBFbyv7rc/?mibextid=LQQJ4d" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/r1ch1_pl?igshid=ZGxtbW0wb3dqOXJ2&utm_source=qr" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var imgIndex = 0;
+        var images = document.querySelectorAll('.profile-img');
+
+        function cambiarImagen() {
+            images[imgIndex].style.opacity = 0; 
+            imgIndex = (imgIndex + 1) % images.length; 
+            images[imgIndex].style.opacity = 1; 
+        }
+
+        setInterval(cambiarImagen, 3000); 
+    </script>
+</body>
+</html>
